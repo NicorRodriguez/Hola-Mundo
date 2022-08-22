@@ -3,7 +3,6 @@ using Review;
 
 public class Product{
     public string name {get; set;} = "";
-    public string desc {get; set;} = "";
     private List<Review> _review = new List<Review>();
     public int price {get; set;}
 
