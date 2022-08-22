@@ -17,6 +17,10 @@ public class Program{
         myproduct.addReview(myreview);
         myproduct.addReview(myreview2);
 
+        List<int> numbers = new List<int>{0, 1,2};
+
+        Console.WriteLine(numbers.Max());
+
         myproduct.getReviews();
 
     }

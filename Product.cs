@@ -4,7 +4,7 @@ using Review;
 public class Product{
     public string name {get; set;} = "";
     private List<Review> _review = new List<Review>();
-    public int price {get; set;}
+    public int price {get; set;} = 0;
 
     public void cleanReview(Review newreview){
         new List<Review>();
